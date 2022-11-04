@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lovely Cake | Pastelería</title>
+		<link href="./LovelyCake-removebg-previewlasty.png" rel="icon">
+		<link href="./reset.css" rel="stylesheet">
+		<link href="./cliente.css" rel="stylesheet">
+	</head>
+	<body>
+		<header class="cabecera">
+			<img class="image"  src="./LovelyCake-removebg-previewlasty.png" alt="Pastelería LovelyCake">
+			<h1 class="title">Pastelería LovelyCake</h1>
+		</header>
+
+		<section>
+			<h2>Bienvenido!</h2>
+
+			<h3>Sabores</h3>
+			<ul>
+				<li>Oreo ............ $20</li>
+				<li>Fresa ............ $14</li>
+				<li>Limon ............ $14</li>
+				<li>Vainilla ............ $14</li>
+				<li>Chocolate ............ $18</li>
+			</ul>
+
+			<h3>Adornos</h3>
+			<ul>
+				<li>Glaseado ............ $5</li>
+				<li>Figuras Comestibles ............ $10</li>
+				<li>Frutas ............ $10</li>
+				<li>Oreos ............ $14</li>
+			</ul>
+		</section>
+
+		<section>
+			<h3>Sucursales</h3>
+			<table>
+				<tr>
+					<th>Ubicacion</th>
+					<th>Horario</th>
+					<th>Telefono</th>
+				</tr>
+				<tr>
+					<td>Fray Dominguez</td>
+					<td>9:00 a 9:00</td>
+					<td>222 187 4554</td>
+				</tr>
+				<tr>
+					<td>Fray Bartolome de Sanduya</td>
+					<td>9:00 a 9:00</td>
+					<td>222 111 9999</td>
+				</tr>
+			</table>
+		</section>
+
+		<section class="formulario">
+			<h3>Pedidos</h3>
+			<form action="#">
+				<label for="locales">Local</label>
+				<select id="locales">
+					<option value="Dominguez">Fray Dominguez</option>
+					<option value="Bartolome">Fray Bartolome de Sanduya</option>
+				</select>
+
+				<p>Sabores</label>
+				<br>
+	  		<input type="checkbox" id="Oreo" name="option1" value="Oreo">
+    		<label for="Oreo">Oreo</label><br>
+    		<input type="checkbox" id="Fresa" name="option2" value="Fresa">
+    		<label for="Fresa">Fresa</label><br>
+    		<input type="checkbox" id="Limon" name="option3" value="Limon">
+    		<label for="Limon">Limon</label><br>
+    		<input type="checkbox" id="Vainilla" name="option4" value="Vainilla">
+				<label for="Vainilla">Vainilla</label><br>
+    		<input type="checkbox" id="Chocolate" name="option5" value="Chocolate">
+				<label for="Chocolate">Chocolate</label><br><br>
+
+				<p>Adornos</label>
+				<br>
+	  		<input type="checkbox" id="Glaseado" name="option1" value="Glaseado">
+    		<label for="Glaseado">Glaseado</label><br>
+    		<input type="checkbox" id="Figuras-Comestibles" name="option2" value="Figuras-Comestibles">
+    		<label for="Figuras-Comestibles">Figuras Comestibles</label><br>
+    		<input type="checkbox" id="Frutas" name="option3" value="Frutas">
+    		<label for="Frutas">Frutas</label><br>
+    		<input type="checkbox" id="Oreos" name="option5" value="Oreos">
+				<label for="Oreos">Chocolate</label><br><br>
+
+				<p>Datos de Contacto</p>
+				<label for="nombre">Nombre: </label>
+				<input type="text" id="nombre" name="nombre" required><br><br>
+
+				<label for="correo1">Correo: </label>
+				<input type="email" id="correo1" name="correo1"><br><br>
+
+				<label for="tel">Teléfono: </label>
+				<input type="tel" id="tel" name="tel"><br><br>
+
+				<label for="direccion">Dirección: </label>
+				<input type="text" id="direccion" name="direccion" required><br><br>
+
+				<label for="descripcion">Descripción del Pastel</label>
+				<br>
+				<textarea id="descripcion" cols="50" rows="10" required></textarea>
+				<br>
+				<input type="submit" value="Submit">
+
+			</form>
+		</section>
+
+		<footer>
+			<p class="copyright">&copy; Pastelería LovelyCake</p>
+		</footer>
+	</body>
+</html>

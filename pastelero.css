@@ -1,0 +1,79 @@
+.cabecera {
+	background-color: #cd383f;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1rem;
+}
+
+.image {
+	height: auto;
+	width: 10%;
+}
+
+h1 {
+	font-size: 46px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+h2 {
+	padding-top: 1rem;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1rem;
+	border-top: 1px solid #FFFFFF;
+}
+
+h3 {
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	border-top: 1px solid #333333;
+	margin-bottom: 1rem;
+	padding-top: .5rem;
+}
+
+ul {
+	text-align: center;
+	margin: 1rem 0;
+}
+
+table {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 14px;
+}
+
+tr, td {
+	border: 1px solid #333333;
+	padding: .2rem;
+}
+
+th {
+	background-color: #888888;
+	border: 1px solid #333333;
+	padding: .2rem;
+}
+
+.formulario {
+	display: block;
+	text-align: center;
+}
+
+select {
+	margin-bottom: 14px;
+}
+
+.copyright {
+	padding-top: 1rem;
+	text-align: center;
+	border-top: 1px solid #FFFFFF;
+	font-size: 14px;
+}
+
+footer {
+	margin-top: 1rem;
+	background-color: #7c5247;
+}
